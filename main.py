@@ -39,3 +39,21 @@ print(6 < 7)
 print(4 <= 7)
 print(9 >= 4)
 print(5 != 5)
+
+# Logical Operators
+
+# IF (not) negation operator
+print(not(5 > 5))
+# If one condition == true
+print((4 != 3) or (56 < 44))
+# If every statement is true
+print((2 == 2) and (4 > 2))
+
+#Condition Structures
+age = 17
+if age > 18 and age <= 59:
+    print("Adulto")
+elif age >= 60:
+    print("Ansião")
+else:
+    print("Adolecente")
