@@ -1,11 +1,12 @@
 from cachorro import Cachorro
 from gato import Gato
 
-ca1 = Cachorro("Spike", 11, "Branco")
+ca1 = Cachorro("Spike", 11, "Branco", 3)
 
 print(ca1.nome)
 print(ca1.idade)
 print(ca1.cor)
+print(ca1.qtd_ossos)
 print(ca1.latir())
 
 ga1 = Gato("Trunks", 2, "Cinza")
