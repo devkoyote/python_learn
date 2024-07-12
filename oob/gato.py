@@ -7,5 +7,5 @@ class Gato(Animal):
         super().__init__(nome, idade, cor)
 
     # function action
-    def miar(self):
-        return "miauu"
+    def fazer_barulho(self):
+        return "Miauu"

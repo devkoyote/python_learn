@@ -18,5 +18,5 @@ class Cachorro(Animal):
 
 
         # Function action
-    def latir(self):
+    def fazer_barulho(self):
         return "Au au"

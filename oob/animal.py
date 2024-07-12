@@ -1,5 +1,7 @@
+#====IMPORTS===========
 
-class Animal:
+import abc
+class Animal(abc.ABC):
 
     def __init__(self, nome, idade, cor):
         self._nome = nome
@@ -29,3 +31,7 @@ class Animal:
     @cor.setter
     def cor(self, cor):
         self._cor = cor
+
+    @abc.abstractmethod
+    def fazer_barulho(self):
+        pass
