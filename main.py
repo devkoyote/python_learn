@@ -49,7 +49,7 @@ print((4 != 3) or (56 < 44))
 # If every statement is true
 print((2 == 2) and (4 > 2))
 
-#Condition Structures
+# Condition Structures
 age = 17
 if age > 18 and age <= 59:
     print("Adulto")
@@ -57,3 +57,17 @@ elif age >= 60:
     print("Ansião")
 else:
     print("Adolecente")
+
+# Repeating Structures
+# range(init, value, increment)
+for i in range(0, 10, 2):
+    print(i)
+else:
+    print("Teste realizado com sucesso do for!")
+
+# While
+quantity = 1
+
+while quantity <= 5:
+    print("numero:", quantity)
+    quantity += 1
