@@ -1,6 +1,9 @@
 from animal import Animal
+from interface_animal import Interface_Animal
 
-class Gato(Animal):
+
+class Gato(Animal, Interface_Animal):
+
 
     def __init__(self, nome, idade, cor):
         # extends Animal
@@ -9,3 +12,6 @@ class Gato(Animal):
     # function action
     def fazer_barulho(self):
         return "Miauu"
+
+    def brincar(self):
+        return "O gato está pulando no telhado"

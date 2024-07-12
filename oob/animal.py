@@ -31,7 +31,3 @@ class Animal(abc.ABC):
     @cor.setter
     def cor(self, cor):
         self._cor = cor
-
-    @abc.abstractmethod
-    def fazer_barulho(self):
-        pass
