@@ -9,4 +9,4 @@
 * Object Oriented
 * Inheritance and Polymorphism
 * Abstraction and Encapsulation
-
+* Composition of class
