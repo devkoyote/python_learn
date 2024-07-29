@@ -1,33 +1,35 @@
 #====IMPORTS===========
 
-import abc
-class Animal(abc.ABC):
+class Animal:
 
     def __init__(self, nome, idade, cor):
-        self._nome = nome
-        self._idade = idade
-        self._cor = cor
+        self.__nome = nome
+        self.__idade = idade
+        self.__cor = cor
 
     @property
     def nome(self):
-        return self._nome
+        return self.__nome
 
     @nome.setter
     def nome(self, nome):
-        self._nome = nome
+        self.__nome = nome
 
     @property
     def idade(self):
-        return self._idade
+        return self.__idade
 
     @idade.setter
     def idade(self, idade):
-        self._idade = idade
+        self.__idade = idade
 
     @property
     def cor(self):
-        return self._cor
+        return self.__cor
 
     @cor.setter
     def cor(self, cor):
-        self._cor = cor
+        self.__cor = cor
+
+
+
